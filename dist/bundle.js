@@ -70,14 +70,19 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-console.log('niiiiice, je suis le second');
+throw new Error("Module build failed: SyntaxError: Unexpected token (10:21)\n\n\u001b[0m \u001b[90m  8 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m arr \u001b[33m=\u001b[39m [\u001b[32m'basile'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'romain'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'hachim'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'moi'\u001b[39m]\u001b[33m;\u001b[39m\n \u001b[90m  9 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m arr1 \u001b[33m=\u001b[39m [\u001b[32m'Angela'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Dwight'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'Florian'\u001b[39m]\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m obj1 \u001b[33m=\u001b[39m {\u001b[33m...\u001b[39mobj\u001b[33m,\u001b[39m \u001b[32m'color'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'red'\u001b[39m}\u001b[33m;\u001b[39m\n \u001b[90m    | \u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 | \u001b[39mconsole\u001b[33m.\u001b[39mlog(\u001b[32m'niiiiice, je suis le second'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n");
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var second = __webpack_require__(0);
-console.log('bonjour main yeah !');
+"use strict";
+
+
+var _second = __webpack_require__(0);
+
+console.log(_second.arr1);
+console.log(_second.obj.name);
 
 /***/ })
 /******/ ]);
