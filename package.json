@@ -1,0 +1,26 @@
+{
+  "name": "paulreact",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "paultest",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polo-dev/react.git"
+  },
+  "author": "Paul Reinhardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polo-dev/react/issues"
+  },
+  "homepage": "https://github.com/polo-dev/react#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.2.1",
+    "webpack": "^2.2.1"
+  }
+}
